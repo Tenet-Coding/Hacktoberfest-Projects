@@ -13,3 +13,7 @@
 - Commit changes on your fork and create a Pull Request.
 - Do not spam, Else you will be banned.
 - Submit your Projects in Appropriate folders as mentioned to you while assigning.
+
+
+Refer Our Wiki If you are new to Github 
+[Tenet Contributing Wiki](https://github.com/Tenet-Coding/Hacktoberfest-Projects/wiki/Pull-Requests-!)

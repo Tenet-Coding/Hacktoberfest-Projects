@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "name": "Harshil Jani",
+    "description": "My personal Extension to my social handles",
+    "version": "1.0.0",
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab"]
+}

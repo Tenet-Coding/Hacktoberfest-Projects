@@ -17,3 +17,6 @@
 
 Refer Our Wiki If you are new to Github 
 [Tenet Contributing Wiki](https://github.com/Tenet-Coding/Hacktoberfest-Projects/wiki/Pull-Requests-!)
+
+You can refer to Sample Issue Created [here](https://github.com/Tenet-Coding/Hacktoberfest-Projects/issues/1)
+And Create Pull Request Accordingly.

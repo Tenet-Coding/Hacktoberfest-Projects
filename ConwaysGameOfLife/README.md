@@ -5,7 +5,7 @@
 
 Conway's Game of Life is a cellular automaton (yes, its automaton) devised by British mathematician John Horton Conway (May his soul rest in peace 🙏) in 1970. It is a zero player game, i.e. its evolution is determined by its intial state. It is Turing complete.
 
-This static app hosts 50 x 50 grid using which one can set the initial state of the population. Hosted at [Github page](https://pathakshashank17.github.io/Conways-Game-of-Life-JS/). Currently the grid is not optimized for mobile devices, so please use desktop version of the site if possible.
+This static app hosts 50 x 50 grid using which one can set the initial state of the population. Hosted at . Currently the grid is not optimized for mobile devices, so please use desktop version of the site if possible.
 
 ## Rules
 - Any live cell with fewer than two live neighbours dies, as if by underpopulation.

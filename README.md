@@ -1,4 +1,5 @@
-![image](https://user-images.githubusercontent.com/66599363/134619597-a2cd811e-2c03-4a33-992e-a04b4cc92dbb.png)
+![footer-simple-light](https://user-images.githubusercontent.com/66599363/134667432-a754cb19-635c-431c-a1c1-080948dccef2.png)
+
 
 # HacktoberFest 2021
 ### Hacktoberfest encourages participation in giving back to the open source community by completing pull requests, participating in events, and donating to open source projects.

@@ -1,8 +1,8 @@
 ---
 name: 'Project : <Name your Project>'
-about: Happy Hacktoberfest !
+about: 'Happy Hacktoberfest ! '
 title: ''
-labels: ''
+labels: hacktoberfest
 assignees: ''
 
 ---
@@ -16,7 +16,7 @@ assignees: ''
 
 ---
 **Tentative Deadline : n days (Provide tentative deadline as per your analyses. Make sure it falls under 1st Oct to 31st Oct)**
----
+
 ## Some Rules to follow :
 - Add a README.md file for your project.
 - Name of Project

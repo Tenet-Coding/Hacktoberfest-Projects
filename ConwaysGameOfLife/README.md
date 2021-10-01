@@ -76,3 +76,6 @@ This static app hosts 50 x 50 grid using which one can set the initial state of 
 </ul>
 
 All info and resources cited from [Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
+
+### Author(s)
+This code written br [Soumik Kumar Baithalu](https://www.github.com/soumik2012)

@@ -1,0 +1,1 @@
+A NotesApp created with vanillaJS and Bootstrap with LocalStorage and Search Bar functionality as well!!

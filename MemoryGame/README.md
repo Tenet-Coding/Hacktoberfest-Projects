@@ -3,3 +3,5 @@
 ## So its a simple card game which will test your memory 
 ### Basically you will have to choose two card at a time if they have the same value then your score will increase by one Game will get over when you will score 6
 ## link for the Game-[MEMORY GAME](https://competent-kare-3c1f37.netlify.app/)
+
+### Author name:[Devyank Nagpal](https://github.com/2devyank)

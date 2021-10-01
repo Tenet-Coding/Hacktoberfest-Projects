@@ -2,6 +2,7 @@
 
 A simple JavaScript project to demonstrate the changing of background colors when clicked by the user.
 
+![](https://github.com/BajraYeJoon/Weather_Forecast/blob/main/images/recording.gif)
 ### Feel free to customize it and make it look more attractive.
 
 if you feel like contributing (for beginners)😊

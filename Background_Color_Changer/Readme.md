@@ -7,8 +7,12 @@ A simple JavaScript project to demonstrate the changing of background colors whe
 if you feel like contributing (for beginners)😊
 
 ## Fork this repository
+   
+   https://github.com/BajraYeJoon/Background_color_changer
+   
+ ## Clone the repository
 
-1. \_git clone https://github.com/BajraYeJoon/Background_color_changer.git
+1. \_git clone https://github.com/your-username/Background_color_changer.git
 
 2. Create a branch and make a PR from the branch
 3. Wait for it to be Merged

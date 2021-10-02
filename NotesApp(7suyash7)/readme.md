@@ -7,4 +7,4 @@ A Notes App which allows you to store as many notes as you want with the option 
 
 ### Author
 This code written by [Suyash Nayan](https://www.github.com/7suyash7)
->>>>>>> 07079312aee72ee26b036bc77401e8780ffa5f64
+

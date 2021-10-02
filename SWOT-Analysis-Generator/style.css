@@ -1,0 +1,38 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+h1{
+    font-family: 'Yatra One', cursive;
+}
+.container
+{
+    padding-top: 4vh;
+}
+.mb-3
+{
+    outline: none;
+
+}
+.center
+{
+    text-align: center;
+    color: rgb(255, 81, 0);
+}
+h5{
+    font-family: 'Arvo', serif;
+}
+footer
+{
+    padding-top: 2vh;
+    font-size: 2.8vh;
+    padding-bottom: 2vh;
+    text-align: center;
+    color: red;
+}
+.btn a
+{
+    text-decoration: none;
+    color:white
+}

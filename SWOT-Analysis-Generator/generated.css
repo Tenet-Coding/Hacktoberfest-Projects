@@ -1,0 +1,27 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+body
+{
+    background-image: url('swot1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.row
+{
+    margin-top: 2vh;
+    font-size: 18px;
+    font-weight: 495;
+}
+.row h4
+{
+    text-align: center;
+    padding-bottom: 5px;
+    border-bottom: 2px solid purple;
+}
+.container
+{
+    margin-top: 2vh;
+}

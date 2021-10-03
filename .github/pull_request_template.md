@@ -2,8 +2,6 @@
 
 - Here Add your Description of Project.
 
-Closes #< Issue Number> (Remove Angular brackets and write number right in front of # ) 
-
 ## Add GIF/ScreenShot 
 
 - Create a GIF of your Working Project and Add it for a quick PR review.

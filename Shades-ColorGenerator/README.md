@@ -2,4 +2,7 @@
 
 ## A website with functionality to generate and copy the different shades of colors.
 
-![](src/shades.PNG)
+![shades](https://user-images.githubusercontent.com/63498317/135738947-75e9dada-545c-4712-a824-e54e38a88ce9.jpg)
+
+
+### Author name:[Ukesh Shrestha](https://github.com/Ukesh-dev)

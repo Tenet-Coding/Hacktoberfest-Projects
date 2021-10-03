@@ -9,7 +9,7 @@ This is a simple Python app for cropping images similar to a snipping tool.
 &nbsp;
 &nbsp;
 
-![image](Image-Cropper/Screenshot 2021-10-03 at 3.26.22 PM.png)
+![image](./Screenshot 2021-10-03 at 3.26.22 PM.png)
 
 &nbsp;
 &nbsp;

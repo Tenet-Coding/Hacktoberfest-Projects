@@ -1,4 +1,4 @@
-**Image Cropper**
+## Image Cropper
 
 This is a simple Python app for cropping images similar to a snipping tool.  
 
@@ -17,3 +17,7 @@ This is a simple Python app for cropping images similar to a snipping tool.
 &nbsp;
 
 The app is developed using tkinter and opencv modules in python. The app provides the options to browse, select an image, crop the image, save the image, or reset the changes.
+
+## Demo:
+
+![Alt Text](/Image-Cropper/demo.gif)

@@ -26,16 +26,6 @@ h2 {
     font-family: 'Courier New', Courier, monospace;
 }
 
-
-.sum-div {
-    padding: 5px;
-
-}
-
-.person-btn {
-    margin-left: 5px;
-}
-
 #div-total {
     width: 50%;
     margin: auto;
@@ -52,7 +42,6 @@ h2 {
     padding: 2em;
     border-radius: 10px;
     flex-wrap: wrap;
-
 }
 
 .img-btn {

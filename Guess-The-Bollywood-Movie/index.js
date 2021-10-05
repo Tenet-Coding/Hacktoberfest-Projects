@@ -27,10 +27,11 @@ const submit = document.querySelector("#submit");
 
 const answers = document.querySelector(".answer");
 const showScore = document.querySelector("#show-score");
+// const timer = document.querySelector(".timer");
 
 let score=0;
 let questionCount=0;
-
+// let timeLeft = 10;
 
 
 const loadQuestion = ()=>{
@@ -42,15 +43,13 @@ loadQuestion();
 
 submit.addEventListener("click", () => {
     
-    console.log(answers.value);
     if(answers.value === quizDB[questionCount].ans){
-        console.log("Yes");
-        console.log(quizDB.length);
         score++;
     }
     questionCount++;
     if(questionCount < quizDB.length){
         loadQuestion();
+        document.getElementById('answer-input').value = ''
     }
     else{
         showScore.innerHTML = `<h3>Your score is <span>${score}/${quizDB.length}</span> ✌!</h3>
@@ -61,3 +60,18 @@ submit.addEventListener("click", () => {
     }
     
 })
+
+// const quizTimer = setInterval(() => {
+//     if(timeLeft >= 0){
+//         console.log(timeLeft);
+        
+//         timer.innerText = timeLeft;
+//         timeLeft--;
+//     }
+// }, 1000);
+// if(timeLeft === 0){
+//     setTimeout("document.submit.submit()", 1);
+//     timeLeft = 2;
+// }
+
+

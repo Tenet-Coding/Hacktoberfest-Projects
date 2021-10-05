@@ -38,10 +38,16 @@ body{
 .emoji-question{
     font-size: 1.5rem;
     font-weight: 700;
+    margin-top: 0.5rem;
+}
+.quiz-timer{
+    background-color: white;
+    max-width: 20%;
     margin-top: 1rem;
+    
 }
 .answer{
-    margin-top: 4rem;
+    margin-top: 2rem;
     border: none;
     padding: 1rem;
 }
@@ -75,3 +81,4 @@ body{
     display: none;
     
 }
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div  id="alert-box" role="alert"
+        style="position: absolute; padding: 0.5% 15% 0.5%; top: 35px; display:none;">
+        <h3 style="font-size: 25px;">
+             Please enter your names below.
+        </h3>
+        <button id="close-btn" type="button" class="btn-close"></button>
+    </div>
+    <main>
+        <div class="input-box">
+            <span class="info-icon" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                <i class="fas fa-info-circle"></i>
+            </span>
+            <h1 class="game-name">Dice Game</h1>
+            <form>
+                <div class="name-input">
+                    <label for="name-input1" class="form-label">Player 1</label>
+                    <input type="text" class="form-control" style="font-size: 2.5rem;" id="name-input1" required />
+                </div>
+                <div class="name-input">
+                    <label for="name-input2" class="form-label">Player 2</label>
+                    <input type="text" class="form-control" id="name-input2" style="font-size: 2.5rem" required />
+                </div>
+                <div class="form-check">
+                    <input type="button" class="btn--all" value="🎲 Let's Play" />
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <script src="input.js"></script>
+</body>
+
+</html>

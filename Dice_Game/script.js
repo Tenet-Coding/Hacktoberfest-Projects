@@ -24,3 +24,5 @@ else if (document.querySelector("img.img1").getAttribute("src") > document.query
 else {
     document.querySelector("h1").innerHTML="Draw!";
 }
+
+

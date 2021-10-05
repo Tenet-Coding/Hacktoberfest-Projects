@@ -1,0 +1,20 @@
+* {
+font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.input-container {
+    margin-top: 50px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#input {
+    margin-bottom: 2px;
+}

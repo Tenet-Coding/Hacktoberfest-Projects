@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    height: 150vh;
+    font-family: 'Baloo 2', cursive;
+}
+
+
+.nav
+{
+    background-color: rgb(255, 107, 38);
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    box-shadow: 0px 1px 25px 1px black;
+}
+
+.nav-left
+{
+
+}
+
+
+.nav-list
+{
+    display: flex;
+    list-style: none;
+}
+
+.nav-itmes
+{
+    margin: 10px 20px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+
+.leftSide
+{
+    margin: auto;
+}
+
+
+.rightSide
+{
+    margin: auto;
+}
+
+
+ a:hover
+{
+    background-color: rgb(255, 94, 20);
+    padding: 10px;
+    border-radius: 15px;
+    border-bottom: 2px solid rgb(179, 57, 1);
+    border-right: 2px solid rgb(179, 57, 1);
+    box-shadow: 5px 5px 10px #08080869;
+}
+
+
+a:active
+{
+    background-color: rgb(255, 94, 20);
+    padding: 10px;
+    border-radius: 15px;
+    border-top: 2px solid rgb(179, 57, 1);
+    border-left: 2px solid rgb(179, 57, 1);
+    border-bottom: 0px solid rgb(179, 57, 1);
+    border-right: 0px solid rgb(179, 57, 1);
+    box-shadow: 5px 5px 10px #08080869;
+}
+
+.nav-itmes a
+{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+}
+
+footer
+{
+    position: absolute;
+    bottom: -50vh;
+    background-color: black;
+    color: white;
+    width: 98.9vw;
+    text-align: center;
+}
+
+
+.lft
+{
+    border: 3px solid rgb(217 110 1);
+    border-spacing: 2px;
+    font-size: 40px;
+    text-align: center;
+    background-color: rgb(255, 107, 38);
+}
+
+
+.lft-td
+{
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    padding: 5px 23px;
+}
+
+
+.rft-td
+{
+        border: 2px solid rgb(255, 255, 255);
+        color: white;
+        padding: 5px;
+}
+
+
+.rft
+{
+        border: 3px solid rgb(217 110 1);
+        border-spacing: 2px;
+        font-size: 40px;
+        text-align: center;
+        background-color: rgb(255, 107, 38);
+}

@@ -29,5 +29,5 @@ function setInput() {
     return wordCount;
   }
 
-  document.getElementById("output").innerHTML = wordCounter();
+  document.getElementById("output").innerHTML = "word count : "  + wordCounter();
 }

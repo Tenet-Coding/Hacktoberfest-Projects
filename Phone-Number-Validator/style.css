@@ -1,0 +1,32 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+ background-color: rgba(232, 252, 255, 0.356);
+}
+
+#container {
+ margin: auto;
+ margin-top: 25vh;
+ max-width: 400px;
+ text-align: left;
+ background: rgba(0, 188, 235, 0.25);
+ box-shadow: 0 8px 32px 0 rgba(162, 165, 0, 0.37);
+ backdrop-filter: blur( 4px);
+ -webkit-backdrop-filter: blur( 4px);
+ border-radius: 10px;
+ border: 1px solid rgba( 255, 255, 255, 0.18);
+}
+
+#phone {
+ margin: 30px 0px;
+}
+
+#result {
+ margin-top: 10px;
+ min-height: 50px;
+ font-weight: bold;
+}

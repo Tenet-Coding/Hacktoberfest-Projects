@@ -10,7 +10,7 @@
 ![](https://user-images.githubusercontent.com/76244600/135915448-95b294bb-c00e-411a-a237-43f4b71c1e79.png)
 
 
-<b>Game link</b> [Click here🎉](https://rameshchandrapola.github.io/Webdev-Projects/2048game/index.html)
-<b>Author Name</b> [Rameshchandra Pola](https://github.com/Rameshchandrapola)
+- <b>Game link</b> [Click here🎉](https://rameshchandrapola.github.io/Webdev-Projects/2048game/index.html)
+- <b>Author Name</b> [Rameshchandra Pola](https://github.com/Rameshchandrapola)
 
 

@@ -9,4 +9,4 @@ python app.py
 Runs on localhost port 5000
 
 ## Preview
-![Preview](NewsApp_Flask\assets\snap.png)
+![alt text](https://github.com/omrawal/Hacktoberfest-Projects/blob/FlaskNewsAppBranch/NewsApp_Flask/assets/snap.png)

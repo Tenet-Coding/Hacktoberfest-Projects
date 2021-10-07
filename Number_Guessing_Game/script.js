@@ -8,7 +8,7 @@ var answer = Math.floor(Math.random() * 20) + 1;
 console.log("number", answer);
 
 var noOfGuesses = 0;
-var guessedNums = []; //
+var guessedNums = [];
 
 function guessTheNumber() {
   var input = document.getElementById("input").value;
@@ -18,7 +18,8 @@ function guessTheNumber() {
     guessedNums.push(input);
     noOfGuesses++;
     if (noOfGuesses > 5) {
-      alert("You've reached the maximum attempts. Number is " + answer)
+      alert("You've reached the maximum attempts. Number is " + answer);
+      window.location.reload();
     } else {
       if (input < answer + 3 && input > answer) {
         guessStatus.textContent = "You're getting close!.";

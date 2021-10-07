@@ -30,7 +30,13 @@ body {
 }
 
 h2:nth-of-type(2n) {
+  margin-top: 10px;
   color: #784ba0;
+}
+p:first-of-type {
+  font-size: 17px;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 
 input[type="text"] {
@@ -59,5 +65,5 @@ button {
 }
 
 button:hover {
-  background-color: #617de5;
+  background-color: #5badff;
 }

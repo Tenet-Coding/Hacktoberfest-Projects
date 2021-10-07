@@ -17,30 +17,33 @@ function guessTheNumber() {
   } else {
     guessedNums.push(input);
     noOfGuesses++;
-
-    if (input < answer + 3 && input > answer) {
-      guessStatus.textContent = "You're getting close!.";
-      messageGuesses.textContent = "No. of guesses: " + noOfGuesses;
-      resultGuessedNo.textContent = "Guesses numbers are:" + guessedNums;
-    } else if (input > answer - 3 && input < answer) {
-      console.log("You're getting close!.");
-      guessStatus.textContent = "You're getting close!.";
-      messageGuesses.textContent = "No. of guesses: " + noOfGuesses;
-      resultGuessedNo.textContent = "Guesses numbers are: " + guessedNums;
-    } else if (input < answer) {
-      guessStatus.textContent = "Your guess is too low.";
-      messageGuesses.textContent = "No. of guesses: " + noOfGuesses;
-      resultGuessedNo.textContent = "Guesses numbers are: " + guessedNums;
-    } else if (input > answer) {
-      guessStatus.textContent = "Your guess is too high.";
-      messageGuesses.textContent = "No. of guesses: " + noOfGuesses;
-      resultGuessedNo.textContent = "Guesses numbers are: " + guessedNums;
-    } else if (input == answer) {
-      guessStatus.textContent = "Bravo! You are correct!";
-      messageGuesses.textContent = "The number was " + answer;
-      resultGuessedNo.textContent =
-        "You guessed it in " + noOfGuesses + " guesses.";
-      button.disabled = true;
+    if (noOfGuesses > 5) {
+      alert("You've reached the maximum attempts. Number is " + answer)
+    } else {
+      if (input < answer + 3 && input > answer) {
+        guessStatus.textContent = "You're getting close!.";
+        messageGuesses.textContent = "No. of guesses: " + noOfGuesses;
+        resultGuessedNo.textContent = "Guesses numbers are: " + guessedNums;
+      } else if (input > answer - 3 && input < answer) {
+        console.log("You're getting close!.");
+        guessStatus.textContent = "You're getting close!.";
+        messageGuesses.textContent = "No. of guesses: " + noOfGuesses;
+        resultGuessedNo.textContent = "Guessed numbers are: " + guessedNums;
+      } else if (input < answer) {
+        guessStatus.textContent = "Your guess is too low.";
+        messageGuesses.textContent = "No. of guesses: " + noOfGuesses;
+        resultGuessedNo.textContent = "Guessed numbers are: " + guessedNums;
+      } else if (input > answer) {
+        guessStatus.textContent = "Your guess is too high.";
+        messageGuesses.textContent = "No. of guesses: " + noOfGuesses;
+        resultGuessedNo.textContent = "Guessed numbers are: " + guessedNums;
+      } else if (input == answer) {
+        guessStatus.textContent = "Bravo! You are correct!";
+        messageGuesses.textContent = "The number was " + answer;
+        resultGuessedNo.textContent =
+          "You guessed it in " + noOfGuesses + " guesses.";
+        button.disabled = true;
+      }
     }
   }
 }

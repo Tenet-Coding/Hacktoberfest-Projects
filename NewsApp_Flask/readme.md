@@ -1,5 +1,8 @@
 # News App flask
 
+A News app created on Flask using API (newsapi.org)
+This website shows top headlines in the Indian region and clicking on the particular card takes you to that particular website where you can read the complete article.
+
 ## Getting started
 
 ```shell

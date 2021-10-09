@@ -78,4 +78,3 @@ document.getElementById('play').addEventListener('click', ()=> {
 	buildBoard();
 	addListener();
 });
-

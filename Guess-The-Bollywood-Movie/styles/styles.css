@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Poppins:wght@400;700&display=swap');*{
+    padding: 0 ;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1> span{
+    font-family: 'Ephesis', cursive;
+    font-size: 3rem;
+}
+span{
+    color: #CB3066;
+    font-size: 1.1rem;
+}
+body{
+    background: #16BFFD;
+    background: -webkit-linear-gradient(to left, #CB3066, #16BFFD); 
+    background: linear-gradient(to left, #CB3066, #16BFFD); 
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game{
+    height: 20vw;
+    background-color: 	hsl(196, 98%, 54%);
+    padding: 3rem 3rem;
+    border-radius: 0.5rem;
+    box-shadow: 1rem 1rem 1rem -0.4rem rgba(0, 0, 0, 0.4);
+    position: relative;
+}
+.emoji-question{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+}
+.quiz-timer{
+    background-color: white;
+    max-width: 20%;
+    margin-top: 1rem;
+    
+}
+.answer{
+    margin-top: 2rem;
+    border: none;
+    padding: 1rem;
+}
+.btn{
+    border: none;
+    padding: 0.5rem 1rem;
+    font-weight: 700;
+    background-color: rgb(255, 255, 255);
+    color:#16BFFD;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+.btn:hover{
+    transition: 0.7s;
+    box-shadow: 1rem 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+    border-radius: 1rem;
+}
+
+#show-score{    
+    font-size: 0.7rem;
+    background-color: white;
+    padding: 1rem;
+    position: absolute;
+    left: 35rem;
+    right: 1rem;
+    bottom: 2rem;
+    box-shadow: 1rem 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+}
+
+.score-area{
+    display: none;
+    
+}
+

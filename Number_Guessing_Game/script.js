@@ -47,6 +47,8 @@ function guessTheNumber() {
       }
     }
   }
+  //to clear the input field
+  document.getElementById('input').value = '';
 }
 
 //to prevent strings

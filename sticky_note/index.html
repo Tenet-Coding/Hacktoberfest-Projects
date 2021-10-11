@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+</style>
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Notes</title>
+</head>
+<body>
+    <div id="heading">
+        <h1>Sticky Notes</h1>
+        <p id="ts">By Abdulrahman Afaraetu</p>
+    </div>
+
+    <div id="form">
+        <form id="inputForm">
+            <input 
+            type="text" 
+            name="title" 
+            id="new-note-title-input" 
+            class="inputText"
+            placeholder="Title"
+            autocomplete="off"
+            required
+            autofocus
+            />
+            
+<!-- <br> -->
+            <textarea rows="2" name="content" 
+            id="new-note-body-input" 
+            class="inputText"
+            placeholder="Content"
+            autocomplete="off"
+            required></textarea>
+            <!-- <br> -->
+            <button type="submit" class="btn">Create Note</button>
+
+            <h3 id="no-notes">No notes found, please add one!</h3>
+
+            <ul id="notes" ></ul>
+
+        </form>
+    </div>
+    <footer>
+        <p>&copy; Abdulrahman Afaraetu</p>
+    </footer>
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>

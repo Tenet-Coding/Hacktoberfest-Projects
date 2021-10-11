@@ -1,0 +1,67 @@
+*{
+	margin :0;
+	padding: 0;
+}
+body{
+	background: black;
+	color: white;
+	font-family: sans-serif, monospace;
+}
+.container{
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.board{
+	height: 50%;
+	width: 165px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	grid-gap: .5rem;
+}
+.block{
+	background: black;
+	height: 50px;
+	width: 50px;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	box-shadow: 0 5px 20px 0 #15f4ee , 0 5px 20px 0 #15f4ee, 
+				0 5px 20px 0 #15f4ee , 0 5px 20px 0 #15f4ee;
+	text-shadow: 0 0 5px #15f4ee , 0 0 5px #15f4ee;
+	transition: .3s;
+}
+.block:hover{
+	background: rgba(255,255,255,.2);
+}
+.winner{
+	display: none;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 30px 10px;
+}
+.winner h2{
+	padding: 20px 0;
+	letter-spacing: 5px;
+}
+#play{
+	border:none;
+	padding: 10px 20px;
+	letter-spacing: 2px;
+	transition: .5s;
+}
+#play:hover{
+	background: #15f4ee;
+	border-radius: 1px;
+}
+h1{
+	padding: 20px;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+}

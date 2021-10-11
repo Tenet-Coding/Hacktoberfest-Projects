@@ -1,0 +1,10 @@
+.player_body{
+    display:flex;
+    color:white;
+    font-family: 'Rubik', sans-serif;
+    background-color: black;
+}
+.spLogo{
+    margin-top: 4px;
+    height: 60px;
+}

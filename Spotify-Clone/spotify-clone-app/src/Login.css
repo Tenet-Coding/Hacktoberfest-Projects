@@ -1,0 +1,44 @@
+.login {
+    display: grid;
+    background-color: black;
+    height: 100vh;
+    place-items: center;
+}
+  
+.logo{
+    height: 180px;
+}
+  
+.loginbtn{
+    text-decoration: none;
+    padding: 18px;
+    font-weight: 500;
+    font-size:1.2rem;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 80px;
+    position: relative; 
+    bottom: 30%;
+}
+
+
+/* medium screens */
+@media all and (max-width: 1000px) {
+    .logo{
+        height: 130px;
+    }
+    .loginbtn{
+        font-size:1rem;
+        padding: 16px;
+    }
+}
+  
+/* Small screens */
+@media all and (max-width: 700px) {
+    .logo{
+        height: 80px;
+    }
+    .loginbtn{
+        font-size:0.9rem;
+        padding: 14px;
+    }
+}

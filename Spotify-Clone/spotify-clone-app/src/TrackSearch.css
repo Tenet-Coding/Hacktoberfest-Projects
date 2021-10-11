@@ -1,0 +1,12 @@
+.flex-item{
+    display: flex;
+    flex-flow: row;
+    padding-top: 15px;
+}
+.flex-item2{
+    padding-left: 20px;
+}
+
+.flex-item :hover{
+    color: 	#1DB954;
+}

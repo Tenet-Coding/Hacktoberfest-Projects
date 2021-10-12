@@ -1,11 +1,11 @@
 const video = document.getElementById("video");
 
 // Model
-let TINY_FACE_DETECTOR = faceapi.nets.tinyFaceDetector.loadFromUri("/models");
-let FACE_LANDMARK = faceapi.nets.faceLandmark68Net.loadFromUri("/models");
-let FACE_RECOGNITION = faceapi.nets.faceRecognitionNet.loadFromUri("/models");
-let FACE_EXPRESSION = faceapi.nets.faceExpressionNet.loadFromUri("/models");
-let FACE_AGE_GENDER = faceapi.nets.ageGenderNet.loadFromUri("/models");
+let TINY_FACE_DETECTOR = faceapi.nets.tinyFaceDetector.loadFromUri("./models");
+let FACE_LANDMARK = faceapi.nets.faceLandmark68Net.loadFromUri("./models");
+let FACE_RECOGNITION = faceapi.nets.faceRecognitionNet.loadFromUri("./models");
+let FACE_EXPRESSION = faceapi.nets.faceExpressionNet.loadFromUri("./models");
+let FACE_AGE_GENDER = faceapi.nets.ageGenderNet.loadFromUri("./models");
 
 Promise.all([
   TINY_FACE_DETECTOR,

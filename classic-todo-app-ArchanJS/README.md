@@ -18,19 +18,16 @@
 ## Images:
 
 ### Registration page:
-[![Screenshot-56.png](https://i.postimg.cc/XqF920DW/Screenshot-56.png)](https://postimg.cc/fSz3L1Nq)
+[![Screenshot-63.png](https://i.postimg.cc/g0sw221r/Screenshot-63.png)](https://postimg.cc/gwwcMmzP)
 
 ### Login page:
-[![Screenshot-57.png](https://i.postimg.cc/htCQ1jPx/Screenshot-57.png)](https://postimg.cc/w1mB69NT)
+[![Screenshot-64.png](https://i.postimg.cc/SN9JzrHB/Screenshot-64.png)](https://postimg.cc/SJyyBWSd)
 
-### Adding first todo:
-[![Screenshot-58.png](https://i.postimg.cc/Bvr6m1W8/Screenshot-58.png)](https://postimg.cc/5Hmb0y21)
-
-### Adding some more todos:
-[![Screenshot-59.png](https://i.postimg.cc/2SJ85BSH/Screenshot-59.png)](https://postimg.cc/WdGPWzrr)
+### Adding todo:
+[![Screenshot-65.png](https://i.postimg.cc/hhR40kNH/Screenshot-65.png)](https://postimg.cc/Mft86F6D)
 
 ### Deleting an item:
-[![Screenshot-60.png](https://i.postimg.cc/63V9zjLS/Screenshot-60.png)](https://postimg.cc/gXJF2K7q)
+[![Screenshot-66.png](https://i.postimg.cc/MT4ybYxh/Screenshot-66.png)](https://postimg.cc/WFGFsgdn)
 
 ### After deletion:
-[![Screenshot-61.png](https://i.postimg.cc/HLXHsZKx/Screenshot-61.png)](https://postimg.cc/f3z18KMn)
+[![Screenshot-67.png](https://i.postimg.cc/jjSNp1Sp/Screenshot-67.png)](https://postimg.cc/68FyRYRc)

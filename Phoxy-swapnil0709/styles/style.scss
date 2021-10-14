@@ -1,0 +1,18 @@
+@mixin flex($direction, $justify, $align) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}
+@mixin btn {
+  border: none;
+  color: white;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  background: black;
+  cursor: pointer;
+}
+
+@import "global";

@@ -1,0 +1,42 @@
+.header{
+    display:flex;
+    align-items: center;
+}
+.SearchLog{
+    color: white;
+    margin: 10px;
+    padding: 5px;
+    font-size: 11px;
+    align-self: center;
+    margin-right: 65%;
+}
+.searchBar{
+    border: white;
+    font-size: 0.8rem;
+    border-radius: 45px;
+    width: 800px;
+    padding: 10px;
+    padding-left: 10px;
+}
+.Container{
+    display: flex;
+    flex-flow: column;
+}
+.Container::-webkit-scrollbar{
+    display: none;
+}
+
+/* medium screens */
+@media all and (max-width: 1000px) {
+    .searchBar{
+        width: 500px;
+    }
+}
+  
+/* Small screens */
+@media all and (max-width: 700px) {
+    .searchBar{
+        width: 300px;
+    }
+}
+  

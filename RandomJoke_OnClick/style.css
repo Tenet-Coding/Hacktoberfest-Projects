@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: rgb(231, 220, 255);
+  background: linear-gradient(
+    120deg,
+    rgba(231, 220, 255, 1) 0%,
+    rgba(255, 234, 203, 0.8687850140056023) 59%,
+    rgba(246, 241, 255, 1) 100%
+  );
+  font-family: "Varela Round", sans-serif;
+  outline: none;
+  font-size: 1.5rem;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  height: 400px;
+  margin: auto;
+  width: 500px;
+  text-align: center;
+  background: white;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.anim {
+  animation: touch 3s ease-out;
+}
+
+@keyframes touch {
+  100% {
+    width: 2000px;
+    height: 2000px;
+    border-radius: 2000px;
+    opacity: 0;
+    margin: -1000px;
+  }
+}
+
+.wave {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  background: rgba(255, 62, 62, 0.1);
+}
+.hint {
+  text-align: center;
+  margin-top: 50px;
+  position: absolute;
+  background: transparent;
+  opacity: 0.5;
+  width: 100%;
+}

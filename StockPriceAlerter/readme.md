@@ -1,6 +1,7 @@
 ## Stock Price Alerter
 ## Working
 User gets a mail as shown when stock prices cross the set amount
+
 ![prices](https://user-images.githubusercontent.com/58522375/137500586-a85879cd-1b41-4c06-85f6-9fe6fd3f112a.PNG)
 ## Description
 A node app that fetches stock prices from Fyers-api and sends mail alerts to user when a particular stock (customizable) price crosses some value (customizable).

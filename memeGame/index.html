@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We' crossorigin='anonymous'>    
+    <link rel='stylesheet' href='style.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css' integrity='sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==' crossorigin='anonymous' referrerpolicy='no-referrer' />
+    <title>Meme Game</title>
+</head>
+
+<body>
+
+    <main class='text-center mx-auto'>
+
+        <h1>Drag the meme!</h1>
+        <img src='meme.jpeg' alt='doge meme' id='dogePic'>
+
+
+        <div class='card text-center mx-auto'>
+            <button id='dragButton' class='btn btn-secondary'>Click me for dragging info</button>
+            <div id='dragInfo'>
+                <ul class='ui-helper-reset list-unstyled'>
+                    <li id='event-start' class='ui-state-default ui-corner-all'><span class='ui-icon ui-icon-play'></span>&quot;start&quot; invoked <span class='count'>0</span>x</li>
+                    <li id='event-drag' class='ui-state-default ui-corner-all'><span class='ui-icon ui-icon-arrow-4'></span>&quot;drag&quot; invoked <span class='count'>0</span>x</li>
+                    <li id='event-stop' class='ui-state-default ui-corner-all'><span class='ui-icon ui-icon-stop'></span>&quot;stop&quot; invoked <span class='count'>0</span>x</li>
+                </ul>  
+                <button id='dragClose' class='btn btn-secondary'>Close</button>         
+            </div>
+        </div>
+
+        <div class='card text-center mx-auto'>
+            <button id='positionButton' class='btn btn-secondary'>Click me for position</button>
+            <div id='positionInfo'>
+                <ul class='ui-helper-reset list-unstyled'>
+                    <li>Top: <span id='positionTop'>0</span></li>
+                    <li>Left: <span id='positionLeft'>0</span></li>
+                </ul>
+                <button id='positionClose' class='btn btn-secondary'>Close</button>         
+            </div>
+        </div>
+    
+ 
+    </main>
+</body>
+
+<script src='https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js' integrity='sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx' crossorigin='anonymous'></script>
+<script src='https://code.jquery.com/jquery-3.6.0.min.js' integrity='sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=' crossorigin='anonymous'></script>
+<script src='https://code.jquery.com/ui/1.12.1/jquery-ui.min.js' integrity='sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=' crossorigin='anonymous'></script>
+<script src='script.js'></script>
+</html>

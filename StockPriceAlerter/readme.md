@@ -15,4 +15,6 @@ All such data can be stored in an env file.
 - Once all the relevant data are stored in the environment file, the user can install all dependencies using **npm i**.
 - Then user can simply run the node app with **node index.js**.
 ## Author 
-Vaithi Sniper
+VaithiSniper
+
+https://github.com/VaithiSniper

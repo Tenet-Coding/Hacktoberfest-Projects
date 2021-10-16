@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>WhiteBoard</title>
+
+	<style>
+	    body{
+	     margin:0, 
+	    }
+	    canvas{
+	      background-color:#ffffff;
+	      max-width: 100%;
+	      /*max-height: 100%;*/
+	    }
+	</style>
+	<link rel="stylesheet" href="whiteboard.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+
+	<div class="container pt-1 mb-1 d-flex justify-content-center">
+	  <button class="btn btn-outline-primary" id='draw'>draw</button>
+	  <button id="clear" class="btn btn-outline-danger">clear</button>
+	   
+	  <button id='eraser' class="btn btn-outline-warning">Eraser</button>
+	  <button  class="btn btn-outline-dark"><input id="color" class="btn btn-lg p-0" type="color" ></button>
+	  
+
+	</div>
+	
+  	
+  	 <canvas class="border" width="1100" height="700" id="draw" ></canvas>
+	
+<script src="whiteboard.js"></script>
+
+</body>
+</html>

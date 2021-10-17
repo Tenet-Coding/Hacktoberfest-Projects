@@ -9,7 +9,7 @@ This project fetches a random joke using an api and display it on the screen. Th
 - A random joke will be generated.
   
 ### Demo
-![](./res/demo.gif)
+![](/joke-generator/res/demo.gif)
   
 ### Author
 A project by [SandeepKrSuman](https://github.com/SandeepKrSuman).

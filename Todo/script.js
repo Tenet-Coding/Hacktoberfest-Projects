@@ -94,3 +94,5 @@ function savaTodo(todo){
     todos.push(todo);
     localStorage.setItem("todos", JSON.stringify(todos))
 }
+
+

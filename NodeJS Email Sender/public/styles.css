@@ -1,0 +1,25 @@
+body{
+    background-color: #FEFBF3;
+}
+.container{
+    width: 100vw;
+    height: 100%vh;
+    text-align: center;
+}
+.card{
+    height: 400px;
+    width: 650px;
+    background-color: #FEFBF3;
+    margin: 4% 15%;
+    padding: 20px;
+}
+.inputBox{
+    width: 100%;
+    height: 3rem;
+    margin: 5px;
+}
+.textArea{
+    margin:10px;
+    width: 100%;
+    margin: 5px;
+}

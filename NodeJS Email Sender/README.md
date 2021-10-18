@@ -3,6 +3,8 @@
 <img src="./screenshot.png" alt="App Screenshot" style="height: 360px; width:540px;"/>
 <br>
 
+### Author: [Md. Faizan Ahmad](https://github.com/ahmadfaizan965)
+
 ## Important:
 
 For Security Purposes, We could not provide email here. This is a tested app. In order to use it you need to 

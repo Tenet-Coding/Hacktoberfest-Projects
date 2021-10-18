@@ -8,6 +8,6 @@
 ### Game can be pause by Spacebar 
 ### User will have only two lives after that game will be Over
 
-## link for the Game-[MEMORY GAME](https://practical-neumann-b9debc.netlify.app/)
+## link for the Game-[BALL-PADDDLE GAME](https://practical-neumann-b9debc.netlify.app/)
 
 ### Author name:[Devyank Nagpal](https://github.com/2devyank)

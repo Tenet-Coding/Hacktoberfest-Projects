@@ -1,0 +1,25 @@
+.register-item {
+  display: flex;
+  width: 100%;
+  padding: 2%;
+  background-color: #fff;
+  justify-content: flex-start;
+  border: 1px solid #909090;
+}
+
+.register-item p:nth-child(1) {
+  width: 35%;
+}
+
+.register-item p:nth-child(2) {
+  width: 30%;
+}
+
+.register-item p:nth-child(3) {
+    width: 25%;
+  }
+  
+  .delete-icon{
+      width:1.5rem;
+      height:auto;
+  }

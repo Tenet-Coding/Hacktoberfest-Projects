@@ -28,13 +28,13 @@ function addTodo(e){
     completeButton.innerHTML='<i class="fas fa-check"></i>';
     completeButton.classList.add("complete-btn");
     todoDiv.appendChild(completeButton);
-    
+
     const trashButton=document.createElement("button");
     trashButton.innerHTML=`<i class="far fa-trash-alt"></i>`;
     trashButton.classList.add("trash-btn");
     todoDiv.appendChild(trashButton);
 
-    todoList.appendChild(todoDiv); 
+    todoList.appendChild(todoDiv);
 }
 
 function deleteCheck(e){
@@ -50,13 +50,13 @@ function deleteCheck(e){
     if(item.classList[0]==='complete-btn'){
         const todo=item.parentElement;
         todo.classList.toggle('completed');
-        
+
     }
 }
 
 function filterTodo(e){
     const todos=todoList.childNodes;
-    
+
     todos.forEach(function(todo){
         switch(e.target.value){
             case "all":

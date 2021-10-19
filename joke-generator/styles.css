@@ -1,0 +1,80 @@
+body {
+  text-align: center;
+  color: #fff;
+  font-family: "Montserrat";
+  background-color: #002d38;
+  background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Zen Dots", cursive;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+label {
+  margin-right: 2%;
+  font-size: 1.2rem;
+}
+
+#the-joke {
+  display: inline-block;
+  font-size: 1.3rem;
+  font-family: "Montserrat", sans-serif;
+  padding: 2%;
+  border-left: 5px solid #dadbd8;
+  background-color: #002d38;
+}
+
+/* generate template */
+.generate {
+  font-family: "New Tegomin", serif;
+  font-size: 1.5rem;
+  margin-right: 10px;
+  border-bottom: 4px dotted #393e46;
+}
+
+.generator {
+  font-size: 2.3rem;
+  cursor: pointer;
+}
+
+.generator:hover {
+  font-size: 3rem;
+}
+
+/* footer */
+.footer {
+  padding-top: 5%;
+  text-align: center;
+  color: #464545;
+}
+
+.footlink {
+  color: #464545;
+}
+
+.footlink:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* media query */
+@media (max-width: 991px) {
+  .container-fluid {
+    padding: 3% 1% 7%;
+  }
+
+  .navbar-brand {
+    margin: 0 auto;
+  }
+}

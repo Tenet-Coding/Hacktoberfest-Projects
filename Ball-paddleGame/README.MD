@@ -1,5 +1,3 @@
-![Untitled design (2)](https://user-images.githubusercontent.com/78840243/137766991-397b07db-00d1-44ad-a34d-06ceb3dbcd94.gif)
-
 # BALL-PADDDLE GAME
  This is the vintage game which everyone used to play in thier childhood i.e ball will hit the brick and brick will be destroyed , then it will fall back to the paddle if you failed to make contact between them then you will lose one life
  The game is very simple :

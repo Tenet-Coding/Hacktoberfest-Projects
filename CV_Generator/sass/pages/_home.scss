@@ -1,0 +1,74 @@
+.section-about {
+  background-color: $color-blue-1;
+  padding: 25rem 0;
+  margin-top: -20vh;
+
+  @include respond(tab-port) {
+    padding: 20rem 0;
+  }
+}
+
+.section-hobbies {
+  padding: 25rem;
+  background-image: linear-gradient(
+      rgba($color-grey, 0.8),
+      rgba($color-black, 0.8),
+      rgba($color-white, 0.8)
+    ),
+    url("../img/back_2.jpg");
+  margin-top: -20vh;
+  transform: skewY(-7deg);
+  @include respond(tab-port) {
+    padding: 20rem 0;
+  }
+}
+
+.section-skills {
+  background-image: linear-gradient($color-black, $color-blue);
+  padding: 30rem 0;
+  margin-top: -20vh;
+  @include respond(tab-port) {
+    padding: 25rem 0;
+  }
+}
+
+.section-certifications {
+  position: relative;
+  padding: 15rem 0;
+  @include respond(tab-port) {
+    padding: 10rem 0;
+  }
+}
+
+.footer {
+  background-color: $color-grey--1;
+  padding: 15rem 0;
+  position: relative;
+  &__brand {
+    height: 3.5rem;
+  }
+
+  &__logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &__link {
+    display: inline-block;
+    &:not(:last-child) {
+      margin-right: 2.3rem;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &__text {
+    text-align: center;
+    color: $color-black;
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,25 @@
+.header {
+  height: 95vh;
+  background-image: linear-gradient(
+      rgba($color-grey, 0.8),
+      rgba($color-black, 0.8),
+      rgba($color-white, 0.8)
+    ),
+    url("../img/back_1.jpg");
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0% 100%);
+
+  @include respond(tab-port) {
+    clip-path: polygon(0 0, 100% 0, 100% 85vh, 0% 100%);
+  }
+
+  &__text-box {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}

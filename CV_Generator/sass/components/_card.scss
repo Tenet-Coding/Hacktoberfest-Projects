@@ -1,0 +1,206 @@
+.card {
+  position: relative;
+  perspective: 150rem;
+  -moz-perspective: 150rem;
+  height: 52rem;
+
+  &__side {
+    font-size: 1.5rem;
+    height: 52rem;
+    background-color: $color-blue-1;
+    transition: all 0.8s ease;
+    position: absolute;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden;
+
+    &--front {
+      background-color: $color-blue-1;
+    }
+    &--back {
+      transform: rotateY(180deg);
+      &-1 {
+        background-image: linear-gradient(
+          to right,
+          $color-orange,
+          $color-dark-orange
+        );
+      }
+      &-2 {
+        background-image: linear-gradient(
+          to right,
+          $color-blue-2,
+          $color-dark-blue-2
+        );
+      }
+      &-3 {
+        background-image: linear-gradient(to right, $color-grey, $color-black);
+      }
+    }
+  }
+
+  &:hover &__side--front {
+    transform: rotateY(-180deg);
+  }
+  &:hover &__side--back {
+    transform: rotateY(0);
+  }
+
+  //FRONT SIDE
+  &__picture {
+    background-size: cover;
+    height: 23rem;
+    background-blend-mode: screen;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+    &--1 {
+      background-image: linear-gradient(
+          to right,
+          $color-orange,
+          $color-dark-orange
+        ),
+        url(../img/skills_1.jpg);
+    }
+    &--2 {
+      background-image: linear-gradient(
+          to right,
+          $color-blue-2,
+          $color-dark-blue-2
+        ),
+        url(../img/skills_2.jpg);
+    }
+    &--3 {
+      background-image: linear-gradient(
+          to right,
+          black,
+          $color-grey,
+          $color-black
+        ),
+        url(../img/skills_3.jpg);
+    }
+  }
+
+  &__heading {
+    font-size: 2.8rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: $color-blue-1;
+    position: absolute;
+    text-align: right;
+    top: 15rem;
+    right: 2rem;
+    width: 60%;
+  }
+
+  &__heading-span {
+    padding: 1rem 1.5rem;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    &--1 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-orange, 0.85),
+        rgba($color-dark-orange, 0.85)
+      );
+    }
+    &--2 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-blue-2, 0.85),
+        rgba($color-dark-blue-2, 0.85)
+      );
+    }
+    &--3 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-grey, 0.85),
+        rgba($color-black, 0.85)
+      );
+    }
+  }
+
+  &__details {
+    padding: 3rem;
+
+    ul {
+      list-style: none;
+      width: 80%;
+      margin: 0 auto;
+
+      li {
+        text-align: center;
+        font-size: 1.5rem;
+        color: $color-grey--2;
+        padding: 1rem;
+
+        &:not(:last-child) {
+          border-bottom: 1px solid $color-grey--1;
+        }
+      }
+    }
+  }
+
+  //BACK SIDE
+
+  &__rate {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &__rating {
+    text-align: center;
+  }
+  &__rating-value {
+    color: $color-blue-1;
+    font-size: 5rem;
+    font-weight: 100;
+  }
+
+  /*<------------------------------------>*/
+
+  @include respond(tab-port) {
+    height: auto;
+    background-color: $color-blue-1;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
+
+    &__side {
+      height: auto;
+      position: relative;
+      box-shadow: none;
+      &--back {
+        transform: rotateY(0);
+        clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+      }
+    }
+
+    &:hover &__side--front {
+      transform: rotateY(0);
+    }
+
+    &__details {
+      padding: 1rem 3rem;
+    }
+    &__rate {
+      position: relative;
+      top: 0rem;
+      left: 0;
+      transform: translate(0);
+      width: 100%;
+      padding: 7rem 4rem 4rem 4rem;
+      z-index: -1;
+    }
+    &__rating-value {
+      color: $color-blue-1;
+      font-size: 3rem;
+      font-weight: 100;
+      margin-bottom: 2rem;
+    }
+  }
+}

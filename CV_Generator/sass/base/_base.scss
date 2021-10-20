@@ -1,0 +1,28 @@
+html {
+  //redefining a rem.
+  //1 rem = 16 px but here 1 rem = 10 px as 0.625*16=10
+  font-size: 62.5%;
+
+  //larger goes first
+  @include respond(tab-land) {
+    font-size: 56.25%;
+  }
+  @include respond(tab-port) {
+    font-size: 50%;
+  }
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+body {
+  box-sizing: border-box;
+
+  @include respond(tab-port) {
+    padding: 0;
+  }
+}

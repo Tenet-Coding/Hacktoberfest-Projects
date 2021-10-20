@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Math Chaos</title>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.17/tailwind.min.css" rel="stylesheet" type="text/css" />
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <nav class="bg-blue-500 shadow-lg p-2 w-100">
+            <h2 class="font-bold text-xl text-white">Math Chaos</h2>
+        </nav>
+        <div>
+            <div class="m-4" data-section-id="leaderboard">
+                <h2 class="font-bold text-xl text-center">🏆 Leaderboard</h2>
+                <div class="flex flex-col gap-2 mt-2" data-container-id="placements">
+                    <div class="border-2 rounded-md shadow-md flex flex-1 gap-4 p-4 ${topThree}">
+                        <h3 class="font-light">No player on the leaderboard.</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="m-4">
+                <h2 class="font-bold text-lg">Instruction</h2>
+                <p>Answer as fast and accurately you can! (Round your answer to nearest whole number.) </p>
+                <button id="startButton" class="mt-4 py-2 px-4 shadow-md rounded-sm ring-2 ring-blue-500 hover:bg-blue-300 hover:text-white" onclick="start()">Start Quiz</button>
+            </div>
+            <div class="grid grid-cols-3 m-4 gap-4" data-container-id="quiz"></div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

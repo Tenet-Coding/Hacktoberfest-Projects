@@ -27,8 +27,8 @@ After this, the inputs will be slotted into a presentable and professional-looki
 
 ### SETUP
 
-- Use ** npm i ** to install dependencies
-- Run with ** node app.js **
+- Use **npm i** to install dependencies
+- Run with **node app.js**
 
 ## AUTHOR
 

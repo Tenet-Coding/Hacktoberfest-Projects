@@ -1,0 +1,168 @@
+.cert {
+  width: 75%;
+  margin: 0 auto;
+  box-shadow: 0 3rem 6rem rgba($color-black, 0.1);
+  background-color: rgba($color-white, 0.8);
+  padding: 6rem;
+  padding-left: 9rem;
+  font-size: 1.6rem;
+  transform: skewX(-12deg);
+
+  @include respond(tab-port) {
+    width: 100%;
+    padding: 4rem;
+    padding-left: 6rem;
+  }
+
+  @include respond(phone) {
+    transform: skewX(0);
+  }
+
+  &__shape {
+    width: 15rem;
+    height: 15rem;
+    float: left;
+    -webkit-shape-outside: polygon(50% 0%, 90% 50%, 50% 100%, 10% 50%);
+    shape-outside: polygon(
+      50% 0%,
+      90% 50%,
+      50% 100%,
+      10% 50%
+    ); //for this we need to have a defined height and width and also must be floated
+    -webkit-clip-path: polygon(50% 0%, 90% 50%, 50% 100%, 10% 50%);
+    clip-path: polygon(50% 0%, 90% 50%, 50% 100%, 10% 50%);
+    //for a flaoted element best way to add space is to use transform
+
+    transform: translateX(-3rem) skewX(12deg);
+
+    @include respond(phone) {
+      transform: translateX(-3rem) skewX(0);
+    }
+    position: relative;
+  }
+
+  &__img {
+    height: 100%;
+    transform: scale(1.4);
+    transition: all 0.5s;
+    backface-visibility: hidden;
+  }
+
+  &__text {
+    transform: skewX(12deg);
+    @include respond(phone) {
+      margin-top: 3rem;
+      transform: skewX(0);
+    }
+  }
+
+  &__caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: $color-white;
+    transform: translate(-50%, 20%);
+    font-size: 1.6rem;
+    text-align: center;
+    text-transform: uppercase;
+    opacity: 0;
+    transition: all 0.5s;
+    backface-visibility: hidden; //fixing animation and transformation glitches
+  }
+
+  &:hover &__caption {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+
+  &:hover &__img {
+    transform: scale(1);
+    height: 100%;
+    filter: blur(2px) brightness(80%);
+  }
+}
+
+.cert_1 {
+  width: 75%;
+  margin: 0 auto;
+  box-shadow: 0 3rem 6rem rgba($color-black, 0.1);
+  background-color: rgba($color-white, 0.8);
+  padding: 6rem;
+  font-size: 1.6rem;
+  padding-left: 9rem;
+  transform: skewX(12deg);
+  @include respond(tab-port) {
+    width: 100%;
+    padding: 4rem;
+    padding-left: 6rem;
+  }
+
+  @include respond(phone) {
+    transform: skewX(0);
+  }
+
+  &__shape {
+    width: 15rem;
+    height: 15rem;
+    float: left;
+    -webkit-shape-outside: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    shape-outside: polygon(
+      50% 0%,
+      100% 50%,
+      50% 100%,
+      0% 50%
+    ); //for this we need to have a defined height and width and also must be floated
+    -webkit-clip-path: polygon(50% 0%, 90% 50%, 50% 100%, 10% 50%);
+    clip-path: polygon(50% 0%, 90% 50%, 50% 100%, 10% 50%);
+    //for a flaoted element best way to add space is to use transform
+
+    transform: translateX(-3rem) skewX(-12deg);
+    @include respond(phone) {
+      transform: translateX(-3rem) skewX(0);
+    }
+    position: relative;
+  }
+
+  &__img {
+    height: 100%;
+    transform: translateX(-1rem) scale(1.3);
+    transition: all 0.5s;
+    backface-visibility: hidden;
+    @include respond(phone) {
+      transform: translateX(0) scale(1.3);
+      margin-bottom: 2rem;
+    }
+  }
+
+  &__text {
+    transform: skewX(-12deg);
+    @include respond(phone) {
+      transform: skewX(0);
+    }
+  }
+
+  &__caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: $color-white;
+    transform: translate(-50%, 20%);
+    font-size: 1.6rem;
+    text-align: center;
+    text-transform: uppercase;
+    opacity: 0;
+    transition: all 0.5s;
+    backface-visibility: hidden; //fixing animation and transformation glitches
+  }
+
+  &:hover &__caption {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+
+  &:hover &__img {
+    transform: scale(1);
+    height: 100%;
+    filter: blur(2px) brightness(80%);
+  }
+}

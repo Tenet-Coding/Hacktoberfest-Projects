@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/icon-font.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>CV_Gen</title>
+  </head>
+  <body>
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="navigation-tog" />
+      <label for="navigation-tog" class="navigation__button">
+        <span class="navigation__icon"> </span>
+      </label>
+      <div class="navigation__background">&nbsp;;</div>
+
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"><span>01</span>About Me</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"><span>02</span>Hobbies</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"><span>03</span>Skillsets</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"
+              ><span>04</span>Certifications</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <header class="header">
+      <div class="header__text-box u-center-text">
+        <h1 class="heading-prim">
+          <span class="heading-prim--1">Meet</span>
+          <span id="Name" class="heading-prim--2"><%= name %></span>
+        </h1>
+        <div class="u-center-text">
+          <a href="#footer" class="btn btn--green btn--animated">Contact Me</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section-about">
+        <div class="u-center-text u-margin-bottom-8">
+          <h2 class="heading-sec">About Me</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-1">
+            <h3 class="heading-tert u-margin-small">Education</h3>
+            <p id="education" class="paragraph"><%= education %></p>
+
+            <h3 class="heading-tert u-margin-small">Work Experience</h3>
+            <p id="work experience" class="paragraph"><%= workExp %></p>
+          </div>
+          <div class="col-1">
+            <div class="composition">
+              <img
+                src="img/photo-1-uncahnged.jpeg"
+                alt="Photo-1"
+                class="composition__photo composition__photo--p1"
+              /><img
+                src="img/photo-2-unchanged.jpeg"
+                alt="Photo-2"
+                class="composition__photo composition__photo--p2"
+              /><img
+                src="img/photo-3-uncahnged.jpeg"
+                alt="Photo-3"
+                class="composition__photo composition__photo--p3"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-hobbies">
+        <div class="row">
+          <div class="col-4">
+            <div class="hobby-box-1">
+              <i class="hobby-box__icon icon-basic-clubs"></i>
+              <h3 id="Hobby-1" class="heading-quad u-margin-vsmall">
+                <%= hobby1 %>
+              </h3>
+              <p id="hobby-1-details" class="hobby-box__text">
+                <%= hobbydetails.hobby1 %>
+              </p>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="hobby-box">
+              <i class="hobby-box__icon icon-basic-diamonds"></i>
+              <h3 id="Hobby-2" class="heading-quad u-margin-vsmall">
+                <%= hobby2 %>
+              </h3>
+              <p id="hobby-2-details" class="hobby-box__text">
+                <%= hobbydetails.hobby2 %>
+              </p>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="hobby-box-1">
+              <i class="hobby-box__icon icon-basic-heart"></i>
+              <h3 id="Hobby-3" class="heading-quad u-margin-vsmall">
+                <%= hobby3 %>
+              </h3>
+              <p id="hobby-3-details" class="hobby-box__text">
+                <%= hobbydetails.hobby3 %>
+              </p>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="hobby-box">
+              <i class="hobby-box__icon icon-basic-spades"></i>
+              <h3 id="Hobby-4" class="heading-quad u-margin-vsmall">
+                <%= hobby4 %>
+              </h3>
+              <p id="hobby-4-details" class="hobby-box__text">
+                <%= hobbydetails.hobby4 %>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-skills">
+        <div class="u-center-text u-margin-bottom-8">
+          <h2 class="heading-sec-white">Skillsets</h2>
+        </div>
+        <div class="row">
+          <div class="col-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--1">&nbsp;</div>
+
+                <h4 class="card__heading">
+                  <span
+                    id="Skill-1"
+                    class="card__heading-span card__heading-span--1"
+                    ><%= skill1 %></span
+                  >
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li id="Point-1"><%=skill1details.point1%></li>
+                    <li id="Point-2"><%=skill1details.point2%></li>
+                    <li id="Point-3"><%=skill1details.point3%></li>
+                    <li id="Point-4"><%=skill1details.point4%></li>
+                    <li id="Point-5"><%=skill1details.point5%></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-1">
+                <div class="card__rate">
+                  <div class="card__rating">
+                    <p class="card__rating-value">★★★★★</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--2">&nbsp;;</div>
+
+                <h4 class="card__heading">
+                  <span
+                    id="Skill-2"
+                    class="card__heading-span card__heading-span--2"
+                    ><%= skill2 %></span
+                  >
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li id="Point-1"><%=skill2details.point1%></li>
+                    <li id="Point-2"><%=skill2details.point2%></li>
+                    <li id="Point-3"><%=skill2details.point3%></li>
+                    <li id="Point-4"><%=skill2details.point4%></li>
+                    <li id="Point-5"><%=skill2details.point5%></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-2">
+                <div class="card__rate">
+                  <div class="card__rating">
+                    <p class="card__rating-value">★★★★☆</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--3">&nbsp;;</div>
+
+                <h4 class="card__heading">
+                  <span
+                    id="Skill-3"
+                    class="card__heading-span card__heading-span--3"
+                    ><%= skill3 %></span
+                  >
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li id="Point-1"><%=skill3details.point1%></li>
+                    <li id="Point-2"><%=skill3details.point2%></li>
+                    <li id="Point-3"><%=skill3details.point3%></li>
+                    <li id="Point-4"><%=skill3details.point4%></li>
+                    <li id="Point-5"><%=skill3details.point5%></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-3">
+                <div class="card__rate">
+                  <div class="card__rating">
+                    <p class="card__rating-value">★★★☆☆</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-certifications">
+        <div class="bg-video">
+          <video class="bg-video__content" autoplay muted loop>
+            <source src="img/video.mp4" type="video/mp4" />
+            <source src="img/video.webm" type="video/webm" />
+            Your browser is not supported!
+          </video>
+        </div>
+
+        <div class="u-center-text u-margin-bottom-8">
+          <h2 class="heading-sec">Certifications</h2>
+        </div>
+
+        <div class="row">
+          <div class="cert">
+            <figure class="cert__shape">
+              <img src="img/cert-1.jpg" alt="Certificate-1" class="cert__img" />
+            </figure>
+            <h3
+              id="Certificate-1"
+              class="heading-tert u-margin-vsmall cert__text"
+            >
+              <%= cert1 %>
+            </h3>
+            <p id="Certificate-1-details" class="dark-p cert__text">
+              <%= certificatedetails.cert1 %>
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="cert_1">
+            <figure class="cert_1__shape">
+              <img
+                src="img/cert-2.jpg"
+                alt="Certificate-1"
+                class="cert_1__img"
+              />
+            </figure>
+            <h3
+              id="Certificate-2"
+              class="heading-tert u-margin-vsmall cert_1__text"
+            >
+              <%= cert2 %>
+            </h3>
+            <p id="Certificate-2-details" class="dark-p cert_1__text">
+              <%= certificatedetails.cert2 %>
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer__logo">
+        <div class="footer__link">
+          <img
+            src="img\instagram-brands.svg"
+            alt="insta"
+            class="footer__brand"
+          />
+          <a href="<%= socials.insta %>"></a>
+        </div>
+        <div class="footer__link">
+          <img
+            src="img\linkedin-in-brands.svg"
+            alt="linkedin"
+            class="footer__brand"
+          />
+          <a href="<%= socials.linkedin %>"></a>
+        </div>
+        <div class="footer__link">
+          <img
+            src="img\envelope-solid.svg"
+            alt="twitter"
+            class="footer__brand"
+          />
+          <a href="<%= socials.twitter %>"></a>
+        </div>
+        <div class="footer__link">
+          <img
+            src="img\facebook-square-brands.svg"
+            alt="facebook"
+            class="footer__brand"
+          />
+          <a href="<%= socials.facebook %>"></a>
+        </div>
+        <div class="footer__text">© Copyright 2021.</div>
+      </div>
+    </footer>
+    <script>
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+
+          document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
+          });
+        });
+      });
+    </script>
+  </body>
+</html>

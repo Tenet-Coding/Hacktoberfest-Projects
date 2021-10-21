@@ -1,0 +1,106 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.8;
+  color: $color-grey--1;
+  padding: 3rem;
+}
+
+.heading-prim {
+  color: $color-white;
+  text-transform: uppercase;
+  backface-visibility: hidden;
+  &--1 {
+    display: block;
+    font-size: 6rem;
+    font-weight: 700;
+    letter-spacing: 3.5rem;
+    animation-name: moveLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+  }
+  &--2 {
+    display: block;
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 1.7rem;
+    animation-name: moveRight;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+  }
+}
+
+.heading-sec {
+  display: inline-block;
+  color: transparent;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-image: linear-gradient(to left, $color-blue, $color-dark-blue);
+  background-clip: text;
+  -webkit-background-clip: text;
+  letter-spacing: 2rem;
+  &:hover {
+    text-shadow: 0.5rem 1rem 2rem rgba($color-black, 0.3);
+    cursor: auto;
+    animation-name: jello-horizontal;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+  }
+}
+
+.heading-tert {
+  color: $color-grey;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.paragraph {
+  font-size: 1.6rem;
+  &:not(last-child) {
+    margin-bottom: 8rem;
+  }
+  color: $color-grey--2;
+}
+.heading-tert-white {
+  color: $color-blue-1;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 0.3rem;
+}
+
+.heading-quad {
+  color: $color-grey;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.heading-sec-white {
+  display: inline-block;
+  color: transparent;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-image: linear-gradient(to left, $color-white, $color-blue-1);
+  background-clip: text;
+  -webkit-background-clip: text;
+  letter-spacing: 1rem;
+  &:hover {
+    text-shadow: 0.5rem 1rem 2rem rgba($color-black, 0.3);
+    cursor: auto;
+    animation-name: jello-horizontal;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+  }
+}
+
+.dark-p {
+  color: $color-grey--2;
+}

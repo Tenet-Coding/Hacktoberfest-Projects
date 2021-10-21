@@ -1,0 +1,59 @@
+.hobby-box {
+  background-color: rgba($color-blue-1, 0.85);
+  font-size: 1.5rem;
+  padding: 2.5rem;
+  text-size-adjust: none;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 3rem rgba($color-black, 0.9);
+  transition: transform 0.1s;
+  transform: skewY(-7deg);
+  &__icon {
+    font-size: 6rem;
+    display: inline;
+    color: transparent;
+    background-image: linear-gradient(to left, $color-blue, $color-dark-blue);
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+
+  &:hover {
+    transform: skewY(7deg) scale(1.03);
+    box-shadow: 0 1rem 2rem rgba($color-black, 0.7);
+  }
+
+  &__text {
+    overflow: hidden;
+    color: rgba($color-grey, 0.9);
+  }
+}
+
+.hobby-box-1 {
+  background-color: rgba($color-blue-1, 0.85);
+  font-size: 1.5rem;
+  padding: 2.5rem;
+  text-size-adjust: none;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 3rem rgba($color-black, 0.9);
+  transition: transform 0.1s;
+  transform: skewY(14deg);
+  &__icon {
+    font-size: 6rem;
+    display: inline;
+    color: transparent;
+    background-image: linear-gradient(to left, $color-blue, $color-dark-blue);
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+
+  &:hover {
+    transform: skewY(7deg) scale(1.03);
+    box-shadow: 0 1rem 2rem rgba($color-black, 0.7);
+  }
+
+  &__text {
+    overflow: hidden;
+    color: rgba($color-grey, 0.9);
+  }
+}

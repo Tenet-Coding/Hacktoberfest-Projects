@@ -1,0 +1,198 @@
+// font function
+@font-face {
+    font-family: 'semi__bold';
+    src: url(../fonts/poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'regular';
+    src: url(../fonts/poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'light';
+    src: url(../fonts/poppins/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: 'med';
+    src: url(../fonts/poppins/Poppins-Medium.ttf);
+}
+// color variables
+$primary: #3d5af1;
+$secondary:#22d1ee;
+$accent:#0e153a;
+$bg:#e2f3f5;
+$drop-shadow: lighten($accent, 45%);
+$shadow: darken($primary, 2%);
+// Code here
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: $accent;
+
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    margin-top: 3em;
+}
+
+/* for mobile response */
+.btn{
+    color: $bg;
+    font-family: 'regular';
+    font-size: 12px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2em;
+}
+a{
+    text-decoration: none;
+}
+.msgbtn{
+    border: 1.4px solid $primary;
+    padding: 3px 10px 3px 10px;
+}
+.flwbtn{
+    background-color: $primary;
+    color: $bg;
+    padding: 3px 10px 3px 10px;
+}
+.card {
+    width: 340px;
+    height: 640px;
+    background-color: $bg;
+    margin: 0 auto;
+    border-radius: 6px;
+    overflow: hidden;
+    // transition: 200ms ease-out;
+}
+
+.cover {
+    width: 100%;
+    height: 240px;
+    background-color: $primary;
+    border-radius: 6px 6px 0 0;
+    margin-top: -2em;
+}
+.user-card{
+    width: 300px;
+    height: 180px;
+    background-color: $bg;
+    border-radius: 6px;
+    margin: 0em auto;
+    position: relative;
+    top: 8em;
+    box-shadow: 0px 16px 40px rgba($color: #7090b0, $alpha: 0.20);
+}
+.user-img{
+    width: 90px;
+    height: 90px;
+    background-image: url(../image/profile.jpg);
+    background-position: center center;
+    object-fit: cover;
+    object-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: 6px solid $bg;
+    margin: -14em auto;
+    position: relative;
+}
+.user-info{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-top: 0em;
+}
+.user-info .user-name{
+    font-family: 'semi__bold';
+    font-size: 18px;
+}
+.user-info .user-location{
+    font-family: 'regular';
+    font-size: 12px;
+}
+.user-details{
+    margin: 7em 0 3em 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.user-details .user-post{
+    text-align: center;
+}
+.user-post .title{
+    font-family: 'med';
+    font-size: 16px;
+}
+.user-post .posts{
+    font-family: 'ight';
+    font-size: 14px;
+}
+.user-bio{
+    margin: 0em 1.5em 0em 1em;
+}
+.user-bio .title{
+    font-family: 'semi__bold';
+    font-size: 18px;
+}
+.user-bio p{
+    font-family: 'regular';
+    font-size: 13px;
+    padding: 0 2em 0 0;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+}
+.user-posts{
+    width: 100%;
+    height: 100%;
+    margin: 2em 1.5em 0em 0em;
+    overflow: hidden;
+}
+.user-posts .title{
+    margin-left: 0.8em;
+    font-family: 'semi__bold';
+    font-size: 18px;
+}
+.users-posts{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.posts-img-1{
+    margin: 1em 0 0 0;
+    width: 140px;
+    height: 140px;
+    border-radius: 5px;
+    background-image: url(../image/userpost1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    object-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+.posts-img-2{
+    margin: 1em 0 0 0;
+    width: 140px;
+    height: 140px;
+    border-radius: 5px;
+    background-image: url(../image/userpost2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    object-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {}

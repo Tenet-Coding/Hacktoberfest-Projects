@@ -1,0 +1,172 @@
+@import url("../fonts/poppins/Poppins-SemiBold.ttf");
+
+// font function
+@font-face {
+    font-family: 'semi__bold';
+    src: url(../fonts/poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'regular';
+    src: url(../fonts/poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'light';
+    src: url(../fonts/poppins/Poppins-Light.ttf);
+}
+
+// color variables
+$background: #9381ff;
+$primary: #f8f7ff;
+$secondary: #b8b8ff;
+$tertiary: #ffeedd;
+$color: #9381ff;
+$font__color: #242B2E;
+$text__color: #284b63;
+$darker: darken($color, 2%);
+
+// Code here
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: $background;
+    overflow: hidden;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+/* for mobile response */
+
+.card {
+    width: 340px;
+    height: 510px;
+    background-color: $primary;
+    margin: 10% auto;
+    border-radius: 6px;
+    box-shadow: 0px 5px 40px $darker;
+    transition: 200ms ease-out;
+}
+
+.cover__img {
+    width: 340px;
+    height: 200px;
+    background-image: url("../image/cover__img.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 6px 6px 0 0;
+}
+
+.fav__cat {
+    width: 34px;
+    height: 34px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 290px;
+    background-color: $primary;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.fav__btn {
+    display: inline-block;
+    margin-top: 9px;
+    width: 17px;
+    height: 17px;
+    background-image: url("../css/icons/heartfill.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.user__class {
+    margin: -30px 18px 10px 18px;
+    display: flex;
+
+    .user__profile__pic {
+        width: 60px;
+        height: 60px;
+        background-image: url("../image/profile.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+        border: 3.5px solid $primary;
+    }
+
+    .user__info {
+        margin-left: 8px;
+        margin-top: 28px;
+
+        .user__name {
+            font-family: 'regular';
+            font-size: 12px;
+            text-transform: capitalize;
+        }
+
+        .user__username {
+            font-family: 'light';
+            font-size: 10px;
+        }
+    }
+}
+
+.content {
+    margin: 18px;
+
+    .card__title {
+        font-family: 'semi__bold';
+        color: $font__color;
+        font-size: 24px;
+        // typography
+        letter-spacing: 0.6px;
+        line-height: 30px;
+    }
+
+    .card__text {
+        padding-top: 12px;
+        font-family: 'regular';
+        color: $text__color;
+        font-size: 14px;
+        // typography
+        letter-spacing: 0.4px;
+        line-height: 22px;
+    }
+}
+
+.__btn {
+    display: block;
+    padding: 0.8rem;
+    margin-bottom: 5px;
+    font-family: 'regular';
+    background-color: $font__color;
+    color: $primary;
+    text-transform: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 20px 20px 10px 20px;
+    cursor: pointer;
+}
+
+
+// animation during hover
+.card:hover {
+    transform: scale(1.02);
+}
+
+// animation after click
+.card:active {
+    transform: scale(0.960);
+}
+
+@media only screen and (min-width: 768px) {}

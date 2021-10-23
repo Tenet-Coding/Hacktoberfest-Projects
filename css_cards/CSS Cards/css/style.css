@@ -1,0 +1,165 @@
+@import url("../fonts/poppins/Poppins-SemiBold.ttf");
+@font-face {
+  font-family: 'semi__bold';
+  src: url(../fonts/poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'regular';
+  src: url(../fonts/poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'light';
+  src: url(../fonts/poppins/Poppins-Light.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #9381ff;
+  overflow: hidden;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* for mobile response */
+.card {
+  width: 340px;
+  height: 510px;
+  background-color: #f8f7ff;
+  margin: 10% auto;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 5px 40px #8a77ff;
+          box-shadow: 0px 5px 40px #8a77ff;
+  -webkit-transition: 200ms ease-out;
+  transition: 200ms ease-out;
+}
+
+.cover__img {
+  width: 340px;
+  height: 200px;
+  background-image: url("../image/cover__img.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px 6px 0 0;
+}
+
+.fav__cat {
+  width: 34px;
+  height: 34px;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 290px;
+  background-color: #f8f7ff;
+  border-radius: 50%;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.fav__btn {
+  display: inline-block;
+  margin-top: 9px;
+  width: 17px;
+  height: 17px;
+  background-image: url("../css/icons/heartfill.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.user__class {
+  margin: -30px 18px 10px 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.user__class .user__profile__pic {
+  width: 60px;
+  height: 60px;
+  background-image: url("../image/profile.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border: 3.5px solid #f8f7ff;
+}
+
+.user__class .user__info {
+  margin-left: 8px;
+  margin-top: 28px;
+}
+
+.user__class .user__info .user__name {
+  font-family: 'regular';
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+.user__class .user__info .user__username {
+  font-family: 'light';
+  font-size: 10px;
+}
+
+.content {
+  margin: 18px;
+}
+
+.content .card__title {
+  font-family: 'semi__bold';
+  color: #242B2E;
+  font-size: 24px;
+  letter-spacing: 0.6px;
+  line-height: 30px;
+}
+
+.content .card__text {
+  padding-top: 12px;
+  font-family: 'regular';
+  color: #284b63;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+  line-height: 22px;
+}
+
+.__btn {
+  display: block;
+  padding: 0.8rem;
+  margin-bottom: 5px;
+  font-family: 'regular';
+  background-color: #242B2E;
+  color: #f8f7ff;
+  text-transform: none;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  font-size: 15px;
+  margin: 20px 20px 10px 20px;
+  cursor: pointer;
+}
+
+.card:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+
+.card:active {
+  -webkit-transform: scale(0.96);
+          transform: scale(0.96);
+}
+/*# sourceMappingURL=style.css.map */

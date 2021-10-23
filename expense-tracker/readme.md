@@ -4,6 +4,9 @@ A browser based expense tracker to keep track of income and expenses. Add and re
 
 <hr>
 
+![Screenshot (730)](https://user-images.githubusercontent.com/54171759/138550705-b08b522a-72b6-467f-90da-2b388e20d203.png)
+
+
 ## Technologies Used
 
 ``` JavaScript, Html, CSS ```

@@ -30,7 +30,7 @@
 - JavaScript, Html, CSS
 - [Google Font API](https://fonts.googleapis.com/css?family=Lato&display=swap)
 - Web Browser
-- ``` To lauch the app index.html file needs to be clicked ``` 
+- ``` To lauch the application index.html file needs to be clicked ``` 
 <hr>
 
 ## Author

@@ -4,6 +4,21 @@ In this project, User can enter their income and expenses.
 
 ![Money Manager](./project-image.jpg)
 
+## Features
+1. Enter Title and amount of the transaction.
+2. Keep track of Total Income and Expenses.
+3. Detailed table about each transaction.
+4. Delete the transaction (If you want to)
+
+## How It Works
+This project is developed by using JSX, CSS, & REACT
+- Fork & Clone this repository.
+- Open the current project folder in terminal.
+- Using below command instructions to open the project in thr browser.
+
+## Author(s)
+This code written br [Jaswanth Reddy Padala](https://github.com/JaswanthReddyPadala/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -75,4 +90,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-### Project Developed by [Jaswanth Reddy Padala](https://github.com/JaswanthReddyPadala) ✌️
+

@@ -1,17 +1,21 @@
 ## Music Player
 
-Developed a beautiful UI to play music stored in the "music folder" using the ```HTML5 audio API```
+- A browser based music player developed a beautiful UI to play music stored in the "music folder" using the ```HTML5 audio API```
 
-![Screenshot (722)](https://user-images.githubusercontent.com/54171759/137600908-bc8b44c7-05cb-450a-afe2-bb3f2504a000.png)
+<hr>
 
-![final_616b3213c08db800e2e0b160_605801](https://user-images.githubusercontent.com/54171759/137601078-ab098049-fbc5-4985-b1c4-82c299721379.gif)
+![Screenshot (722)](https://user-images.githubusercontent.com/54171759/138662909-1f1c54d9-4230-4042-84f4-7dfb275919dc.png)
 
+![Untitled design (1)](https://user-images.githubusercontent.com/54171759/138662698-9ff49044-b906-4f10-a570-5b630611d6b2.gif)
+
+<hr>
 
 ### Language used
 
 ```
 Java Script, Html, css
 ```
+<hr>
 
 ## Project Specifications
 
@@ -19,3 +23,14 @@ Java Script, Html, css
 - Added play and pause functionality
 - Switch songs
 - Progress bar
+
+<hr>
+
+## Requirement of Project Setup
+- JavaScript, Html, CSS
+- [Google Font API](https://fonts.googleapis.com/css?family=Lato&display=swap)
+- [HTML5 audio API](https://www.html5rocks.com/en/tutorials/webaudio/intro/)
+- Web Browser
+- ``` To lauch the application index.html file needs to be clicked ``` 
+<hr>
+

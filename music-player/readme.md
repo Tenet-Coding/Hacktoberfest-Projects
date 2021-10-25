@@ -1,4 +1,4 @@
-## Music Player
+# Music Player
 
 - A browser based music player developed a beautiful UI to play music stored in the "music folder" using the ```HTML5 audio API```
 
@@ -19,10 +19,10 @@ Java Script, Html, css
 
 ## Project Specifications
 
-- Developed UI for music player including spinning image and song detail popup
-- Added play and pause functionality
-- Switch songs
-- Progress bar
+- Developed UI for music player including spinning image and song detail popup.
+- Added play and pause functionality.
+- Switch songs option.
+- Progress bar which shows the progress of the song.
 
 <hr>
 
@@ -32,5 +32,6 @@ Java Script, Html, css
 - [HTML5 audio API](https://www.html5rocks.com/en/tutorials/webaudio/intro/)
 - Web Browser
 - ``` To lauch the application index.html file needs to be clicked ``` 
+
 <hr>
 

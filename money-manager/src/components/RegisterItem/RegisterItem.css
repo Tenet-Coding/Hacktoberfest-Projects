@@ -16,10 +16,10 @@
 }
 
 .register-item p:nth-child(3) {
-    width: 25%;
-  }
-  
-  .delete-icon{
-      width:1.5rem;
-      height:auto;
-  }
+  width: 25%;
+}
+
+.delete-icon {
+  width: 1.5rem;
+  height: auto;
+}

@@ -16,3 +16,7 @@ This is a simple stopwatch built using ReactJS. You can start, pause(or stop), a
 - step 4: you can edit the component in the 'src' folder
 
 Don’t wait for it to finish, this command starts an automated watcher for JSX. let command run in the terminal, and you can start to edit the component
+
+## Author
+
+odorifqi

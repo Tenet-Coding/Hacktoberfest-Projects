@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  background-color: #fafafa;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 4% 8%;
+  overflow-x: hidden;
+  border: 1px solid black;
+}
+
+@media screen and (max-width: 1000) {
+  .App {
+    padding: 2% 5%;
+    overflow-x: hidden;
+  }
+}
+
+footer {
+  margin-top: 2rem;
+  width: 100vw;
+  background-color: #aaaaaa;
+  color: #121212;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 0;
+  padding: 1rem;
+}
+
+footer p {
+  font-size: 1.5rem;
+}

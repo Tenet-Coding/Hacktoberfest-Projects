@@ -12,3 +12,4 @@ GUI app for image steganography in python
 * _(Optional):_ Create a virtual environment using `venv`.
 * Install requirements using pip: `pip install -r requirements.txt` (Note: if pip doesn't work, try `pip3` instead)
 * Run the script ! `python3 main.py` (Note: if `python3` doesn't work, try `py` or `py -3` or simply `python` instead) 
+* Note: if you are using ubuntu (linux), you'll need to install tkinter using something like `sudo apt install python3-tk`

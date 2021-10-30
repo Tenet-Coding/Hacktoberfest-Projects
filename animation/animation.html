@@ -1,0 +1,106 @@
+<html>
+	<head>
+		
+	</head>
+
+	<body>
+				
+	</body>
+
+	<style>
+		.imgAnimation{
+			position: absolute;
+			display: block;
+			height: auto;
+			width: auto;
+			top: 50%;
+			left: 50%;
+			opacity: 0;
+			transform: translate(-50%, -50%);
+			max-height: 480px;
+			max-width: 640px;
+			animation: 3s imgAnim linear;
+		}
+		@keyframes imgAnim{
+			0%{
+				opacity: 1;
+			}
+			100%{
+				opacity: 0;
+			}
+		}
+		body{
+			background-color: white;
+		}
+		video{
+			display: block;
+			position: absolute;
+			left: 0px;
+			top: 5px;
+			width: 100px;
+			height: 77px;
+			overflow: hidden;
+		}
+		.vid{
+			display: block;
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			margin-left: -265px;
+			margin-top: -185px;
+			width: 530px;
+			height: 370px;
+			overflow: hidden;
+			opacity: 0.3;
+		}
+		@keyframes dis{
+			0%{
+				opacity: 1;
+			}
+			100%{
+				opacity: 0;
+			}
+		}
+		@keyframes hiddenAppear{
+		0%{
+			opacity: 0;
+			}
+		100%{
+			opacity: 1;
+			}
+		}
+
+		@keyframes anim{
+			0%{
+				left: 50%;
+				top: 50%;
+				margin-left: -265px;
+				margin-top: -185px;
+				width: 530px;
+				height: 370px;
+				opacity: 0;
+			}
+			60%{
+				left: 50%;
+				top: 50%;
+				margin-left: -265px;
+				margin-top: -185px;
+				width: 530px;
+				height: 370px;
+				opacity: 0.7;
+			}
+			100%{
+				left: 0px;
+				top: 5px;
+				width: 100px;
+				height: 77px;
+				opacity: 0.9;
+			}
+		}
+
+	</style>
+
+	<script type="text/javascript" src="pageResources/script.js"></script>
+
+
+</html>

@@ -1,0 +1,7 @@
+Hi,
+
+The animation works in a way that "pageResources/script.js" creates a image from a pageResources folder
+and then replaces the image with the video of gears spinning. Gears are set to absolute position and they will
+always be in top left corner. Animation video has a black background so make sure not to change the page background
+because it wont look good. I kept all the css style inside the html file. Make sure not to remove anything from
+folders pageResources and newDesignRes ! 

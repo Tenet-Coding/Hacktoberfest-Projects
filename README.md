@@ -115,7 +115,7 @@ Refer Our Wiki If you are new to Github
 You can refer to Sample Issue Created [here](https://github.com/Tenet-Coding/Hacktoberfest-Projects/issues/1)
 And Create Pull Request Accordingly.
 
-# HALL OF FAME ✨  
+# HALL OF FAME ✨✨  
 
 [![Contributors](https://contrib.rocks/image?repo=Tenet-Coding/Hacktoberfest-Projects)](https://github.com/Tenet-Coding/Hacktoberfest-Projects/graphs/contributors)
 
@@ -125,3 +125,5 @@ And Create Pull Request Accordingly.
 
 **Maintainers** review and accept proposed changes **Reviewers** check proposed
 changes before they go to the Maintainers
+
+# END

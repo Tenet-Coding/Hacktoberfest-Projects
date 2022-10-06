@@ -1,0 +1,50 @@
+*,h1,p{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+}
+
+.head, h2{
+    display: flex;
+    justify-content: center;
+}
+.head{
+    margin: 5rem;
+}
+h2{
+    font-size: 1.35rem;
+    margin: 5rem 0rem;
+}
+.p, p{
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    line-height: 1;
+    letter-spacing: 10px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    
+}
+.buttons button{
+    background-color: rgb(81, 235, 222);
+    font-size: .75em;
+    letter-spacing: 3px;
+    cursor: pointer;
+    font-weight: 400;
+    padding: 1rem 1.5rem;
+    margin: 3rem .8rem;
+    border-radius: 1em;
+}
+@media screen and (min-width: 800px) {
+    .buttons button{
+        font-size: 1.5em; 
+        margin: 3rem 1.5rem;
+    }
+    h2{
+        margin: 5rem;
+    }
+}
